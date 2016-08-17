@@ -1,0 +1,147 @@
+body,html{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+
+
+.wrap{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.box{
+	position:absolute;
+	left:10px;
+	right:10px;
+	top:10px;
+	bottom:10px;
+	background:#f8e24c;
+	display:-webkit-box;
+	-webkit-box-align: center;
+}
+
+.box .bg{
+	width:100%;
+	position:relative;
+}
+
+.oxidise{
+	width:100%;
+}
+
+.box .bg .pos{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.box .bg .pos .phone{
+	position:absolute;
+	right:8%;
+	top:1%;
+	width:18%;
+}
+
+.box .bg .pos .text1{
+	position:absolute;
+	right: 25%;
+    top: 7%;
+    width: 40%;
+}
+
+.box .bg .pos .text2{
+	position:absolute;
+	right: 25%;
+    top: 12%;
+    width: 55%;
+}
+
+.box .bg .pos .house{
+	position:absolute;
+	right: 47%;
+    top: 19%;
+    width: 30%;
+}
+
+.box .bg .pos .text3{
+	position:absolute;
+	left: 63%;
+    top: 25%;
+    width: 25%;
+}
+
+.box .bg .pos .text4{
+	position:absolute;
+	left: 63%;
+    top: 30%;
+    width: 30%;
+}
+
+.box .bg .pos .signed{
+	position:absolute;
+	left: 15%;
+    top: 37%;
+    width: 30%;
+}
+
+.box .bg .pos .text5{
+	position:absolute;
+	left: 48%;
+    top: 42%;
+    width: 25%;
+}
+
+.box .bg .pos .text6{
+	position:absolute;
+	left: 48%;
+    top: 47%;
+    width: 20%;
+}
+
+.box .bg .pos .loan{
+	position:absolute;
+	right: 2%;
+    top: 52%;
+    width: 25%;
+}
+
+.box .bg .pos .text7{
+	position:absolute;
+	right: 37%;
+    top: 57%;
+    width: 15%;
+}
+
+.box .bg .pos .text8{
+	position:absolute;
+	right: 37%;
+    top: 62%;
+    width: 20%;
+}
+
+
+.box .bg .pos .car{
+	position:absolute;
+	right: 18%;
+    bottom: 13%;
+    width: 33%;
+}
+
+.box .bg .pos .text9{
+	position:absolute;
+	left: 23%;
+    bottom: 24%;
+    width: 15%;
+}
+
+.box .bg .pos .text10{
+	position:absolute;
+	left: 23%;
+    bottom: 20%;
+    width: 15%;
+}

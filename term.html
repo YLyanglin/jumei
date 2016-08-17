@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui/mui.min.css">
+	</head>
+
+	<body>
+	<!-- 	<header class="mui-bar mui-bar-nav">
+		<a class="mui-icon mui-icon-bars mui-pull-left mui-plus-visible"></a>
+		<a id="info" class="mui-icon mui-icon-info-filled mui-pull-right" style="color: #999;"></a>
+		<h1 class="mui-title">Hello mui</h1>
+	</header> -->
+		<script src="js/mui/mui.min.js"></script>
+		<script>
+			var menu = null,
+				main = null;
+			var showMenu = false;
+			mui.init({
+				swipeBack: false,
+				statusBarBackground: '#f7f7f7',
+				gestureConfig: {
+					doubletap: true
+				},
+				subpages: [{
+					id: 'instalment',
+					url: 'instalment.html',
+					styles: {
+						top: '45px',
+						bottom: 0,
+						bounce: 'vertical',
+					}
+				}]
+			});
+			
+			
+			var _back = mui.back;
+			mui.back = function() {
+				if (showMenu) {
+					closeMenu();
+				} else {
+					_back();
+				}
+			};
+			
+		</script>
+	</body>
+
+</html>

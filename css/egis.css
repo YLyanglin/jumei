@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+}
+
+.egis_container{
+	padding:0 9%;
+	height:100%;
+	overflow:hidden;
+}
+
+.egis_top{ 
+	width:100%;
+	text-align:center;
+	padding:30px 0;
+}
+
+.egis_top i{
+	display:inline-block; 	
+}
+
+.weui_icon_success_circle:before{
+	font-size:50px;
+	
+}
+
+.weui_icon_cancel:before{
+	color:#CECECE;
+	font-size:50px;
+}
+
+.egis_top h2{
+	font-size:16px;
+	line-height:45px;
+	color:#000;
+	font-weight:bold;
+}
+
+.egis_top h5{
+	font-size:14px;
+	color:#666;
+	
+}
+
+.egis_top h5 span{
+	color:#F66002;
+}
+
+.egis_top h4{
+	font-size:15px;
+	color:#666;	
+}
+
+.weui_btn_warn{
+	background:#FF6600;
+}
+
+.weui_btn_primary{
+	background:#4BCC31;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+}
+
+.weui_btn_primary img{
+	width:25px;
+	height:23px;
+	margin-right:5px;
+	vertical-align: middle;
+}
+
+.weui_btn{
+	border-radius: 0;
+}
+
+.egis_bottom .explain p{
+	color:#8E8E8E;
+	font-size:12px;
+	line-height:40px;
+}
+
+
+
+.egis_bottom .explain ul{
+	color:#8E8E8E;
+	font-size:12px;
+}
+
+
+.egis_bottom .explain ul li{
+	line-height: 25px;
+	list-style: initial;
+	margin-left:15px;
+	
+}
+
+

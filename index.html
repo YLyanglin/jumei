@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 	<meta name="apple-mobile-web-app-capable" content="yes">
+	 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>0首付购物</title>
+		<link rel="stylesheet" href="css/mui/mui.picker.css" />
+		<link rel="stylesheet" href="css/mui/mui.poppicker.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/swiper.css" />		
+		<link rel="stylesheet" href="css/weui.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">
+				<div>
+					<div class="swiper-container" id="banner">
+						<div class="swiper-wrapper">
+						    <div class="swiper-slide"><img src="img/1.jpg"></div>
+						    <div class="swiper-slide"><img src="img/1.jpg"></div>
+						    <div class="swiper-slide"><img src="img/1.jpg"></div>
+						</div>	 
+					</div>
+					
+					<div class="weui_tabbar">
+				        <a href="eligibleFor.html" class="weui_tabbar_item weui_bar_item_on">
+				            <div class="weui_tabbar_icon">
+				                <img src="./img/21.jpg" alt="">
+				            </div>
+				            <p class="weui_tabbar_label">申请条件</p>
+				        </a>
+				        <a href="javascript:;" class="weui_tabbar_item">
+				            <div class="weui_tabbar_icon"> 
+				                <img src="./img/22.jpg" alt="">
+				            </div>
+				            <p class="weui_tabbar_label">贷款资料</p>
+				        </a>
+				        <a href="oxidise.html" class="weui_tabbar_item">
+				            <div class="weui_tabbar_icon">
+				                <img src="./img/23.jpg" alt="">
+				            </div>
+				            <p class="weui_tabbar_label">贷款流程</p>
+				        </a>
+				        <a href="javascript:;" class="weui_tabbar_item">
+				            <div class="weui_tabbar_icon">
+				                <img src="./img/24.jpg" alt="">
+				            </div>
+				            <p class="weui_tabbar_label">分期计算器</p>
+				        </a>
+				    </div>
+				    
+				    <div class="weui_cell weui_cell_form">
+				    	<form action="#" method="get" id="myForm">
+					  
+				        	<div class="weui_cell">
+				            	<div class="weui_cell_hd">
+					            	<label class="weui_label">真实姓名</label>
+					            </div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="请填写您本人的真实姓名" data-required="true" data-descriptions="username">
+					            </div>
+					        </div>
+					        <div class="weui_cell">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label">身份证号</label>
+					            </div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="请填写本人身份证号">
+					            </div>
+					        </div>
+					        <div class="weui_cell">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label">社保卡号</label>
+					            </div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="社保卡条形码下方12位编码">
+					            </div>
+					        </div>
+					        <div class="weui_cell">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label">手机号码</label></div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="请填写本人手机号码">
+					            </div>
+					        </div>
+							<div class="weui_cell">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label">手机号码</label></div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="请填写本人手机号码">
+					            </div>
+					        </div>
+					        <div class="weui_cells">
+						       <div class="weui_cell weui_cell_select">
+						            <div class="weui_cell_bd weui_cell_primary">
+						                <select class="weui_select" name="select1">
+						                    <option selected="" value="1">最高学历</option>
+						                    <option value="2">QQ号</option>
+						                    <option value="3">Email</option>
+						                </select>
+						            </div>
+						        </div>
+						        <div class="weui_cell weui_cell_select">
+						            <div class="weui_cell_bd weui_cell_primary">
+						                <select class="weui_select" name="select1">
+						                    <option selected="" value="1">税后月薪</option>
+						                    <option value="2">QQ号</option>
+						                    <option value="3">Email</option>
+						                </select>
+						            </div>
+						        </div>
+						    </div>
+						    <div class="weui_cell">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label">单位全称</label></div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="请填写工作单位名称">
+					            </div>
+					        </div>
+							<div class="weui_cell">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label">单位座机</label></div>
+					            <div class="weui_cell_bd weui_cell_primary">
+					                <input class="weui_input" type="text" pattern="[0-9]*" placeholder="请填写单位座机号">
+					            </div>
+					        </div>		
+					        
+					        
+					        <div class="weui_cell weui_pa">
+					            <div class="weui_cell_hd">
+					            	<label class="weui_label weui_chang">近24个月内是否有逾期记录？</label>
+					            </div>
+					            <div class="weui_cells weui_cells_checkbox">
+							        <label class="weui_cell weui_check_label  weui_check_have" for="s11">
+							            <div class="weui_cell_hd">
+							                <input type="radio" class="weui_check" name="checkbox1" id="s11" checked="checked">
+							                <i class="weui_icon_checked"></i>
+							            </div>
+							            <div class="weui_cell_bd weui_cell_primary">
+							                <p>有</p>
+							            </div>
+							        </label>
+							        <label class="weui_cell weui_check_label  weui_check_have" for="s12">
+							            <div class="weui_cell_hd">
+							                <input type="radio" name="checkbox1" class="weui_check" id="s12">
+							                <i class="weui_icon_checked"></i>
+							            </div>
+							            <div class="weui_cell_bd weui_cell_primary">
+							                <p>无</p>
+							            </div>
+							        </label>
+							    </div>
+					  
+					        </div>
+					        </form>
+				        </div>
+				        <div class="weuiRight">
+				        	<p>您的联系方式将被严密保密</p>
+				        </div>
+		        </div>
+			</div>
+			
+			
+			<footer class="footer">
+				<button class="applyBtn" form="myForm">申请0首付购车</button><button class="callBtn"></button>
+			</footer>
+			
+			
+			
+		</div>
+		
+		<script src="js/swiper.js"></script>
+		<script src="js/iscroll5.js"></script>
+		<script src="js/mui/mui.min.js"></script>
+		<script src="js/mui/mui.picker.js"></script>
+		<script src="js/mui/mui.poppicker.js"></script>
+		<script src="bulid/sea.js"></script>
+		<script>
+			seajs.config({
+			  base: "./static/js",
+			  alias: {
+			    "jquery": "../../../bulid/jquery/1.10.1"
+			  }
+			});
+			(function($, doc) {
+				$.init();
+				$.ready(function() {
+					//普通示例
+					var userPicker = new $.PopPicker();
+					userPicker.setData([{
+						value: 'ywj',
+						text: '最高学历'
+					}, {
+						value: 'aaa',
+						text: 'QQ号'
+					}, {
+						value: 'lj',
+						text: 'email'
+					}]);
+					var showUserPickerButton = doc.getElementById('select_qic');
+					var userResult = doc.getElementById('userResult');
+					showUserPickerButton.addEventListener('tap', function(event) {
+						userPicker.show(function(items) {
+							userResult.innerText = JSON.stringify(items[0]);
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+					
+					
+					
+					
+					var aniShow = "pop-in";
+					 //主列表点击事件
+					mui('#main').on('tap', "a",function() {
+						var id = this.getAttribute('href');
+						var href = this.href;
+						
+						mui.openWindow({
+							id: id,
+							url: href,
+							styles: {
+								popGesture: 'close'
+							},
+							show: {
+								aniShow: aniShow
+							},
+							waiting: {
+								autoShow: false
+							}
+						});
+					});	
+					
+				});
+										
+			})(mui, document);
+		</script>
+
+		<script>
+		
+			var myPage=new IScroll(".main",{
+			    click: true, 
+			    probeType: 3, 
+			    mouseWheel: true
+		    })
+		
+		
+			var mySwiper = new Swiper('.swiper-container',{
+					pagination : '.swiper-pagination',
+			//pagination : '#swiper-pagination1',
+			})
+			
+		</script>
+		
+	</body>
+</html>
